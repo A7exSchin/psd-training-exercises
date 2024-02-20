@@ -6,6 +6,35 @@
     <title>Contact - DangerZone</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS with your user ID
+        emailjs.init("D78QMxVAsAVuDNvxW");
+        
+        // Function to send email
+        function sendEmail() {
+            // Get form values
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            // Send email
+            emailjs.send("service_d8l2q3r", "template_ybg8lyb", {
+                from_name: name,
+                reply_to: email,
+                message_html: message
+            })
+            .then(function(response) {
+                console.log("Email sent successfully", response);
+                alert("Your message has been sent successfully!");
+                // Optionally, clear the form after sending the email
+                document.getElementById("contact-form").reset();
+            }, function(error) {
+                console.log("Email sending failed", error);
+                alert("Failed to send email. Please try again later.");
+            });
+        }
+    </script>
 <body>
     <header>
         <div class="container">
@@ -26,12 +55,12 @@
             <p>Ready to experience the thrill? Reach out to us!</p>
             <form>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required><br/>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required><br/>
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">Send</button>
+                <button type="button" onclick="sendEmail()">Send Mail</button>
             </form>
         </div>
     </section>
