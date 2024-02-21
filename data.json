@@ -1,0 +1,105 @@
+{
+    "trips": [
+      {
+        "name": "Daredevil Mountain Climbing",
+        "image_background": "images/mountain-climbing.jpg",
+        "image_details": "images/person-standing-mountain.avif",
+        "short_description": "Climb the world's highest and most treacherous peaks.",
+        "dangerous_level": 2,
+        "full_description": "Daredevil mountain climbing is an adventurous and extreme form of ascent that involves climbers taking on highly challenging routes, often opting for unconventional or unexplored paths. Those engaging in this daring activity possess advanced technical skills and use specialized equipment to navigate perilous terrains. They may seek uncharted territories and attempt first ascents on mountains, adding an exploratory dimension to their pursuits. However, the extreme nature of daredevil climbing comes with significant risks, including unpredictable weather conditions, avalanches, and high-altitude health issues. Climbers must prioritize safety and be well-prepared for emergencies. Famous examples of daredevil climbs include the Eiger's North Face, the Shark's Fin on Meru Peak, and the south face of Annapurna.",
+        "html_file": "mountain-climbing.html",
+        "booked": false
+      },
+      {
+        "name": "Deep Sea Diving in Shark-Infested Waters",
+        "image_background": "images/shark.jpg",
+        "image_details": "images/shark-eating.jpeg",
+        "short_description": "Explore the depths of the ocean among the most dangerous predators.",
+        "dangerous_level": 3,
+        "full_description": "Deep Sea Diving with Sharks is a thrilling and immersive underwater adventure where divers explore the ocean's depths alongside these majestic yet powerful creatures. This daring activity offers a unique opportunity to witness marine life in its natural habitat, including various species of sharks. Participants, equipped with scuba gear, navigate the ocean's depths, encountering the beauty of coral reefs and diverse marine ecosystems. Despite the awe-inspiring experience, deep sea diving with sharks requires careful planning, adherence to safety protocols, and knowledgeable guides to ensure a secure and memorable encounter. This underwater escapade provides an unparalleled chance to appreciate the wonders of the ocean while promoting awareness and conservation efforts for these vital marine species.",
+        "html_file": "deep-sea-diving.html",
+        "booked": false
+      },
+      {
+        "name": "Volcano Exploration",
+        "image_background": "images/volcano.jpg",
+        "image_details": "images/beautiful-volcano.jpeg",
+        "short_description": "Witness the power of nature up close by exploring active volcanoes.",
+        "dangerous_level": 3,
+        "full_description": "Volcano Exploration is a captivating and adventurous pursuit that involves scientists, researchers, and enthusiasts delving into the heart of volcanic landscapes to study their geological features and better understand volcanic activity. This thrilling endeavor allows experts equipped with specialized gear to explore the unique environments created by active and dormant volcanoes. Participants witness firsthand the dynamic forces of nature, including molten lava, steam vents, and volcanic craters. While providing valuable insights into Earth's geology and volcanic processes, volcano exploration demands careful planning, knowledge of volcanic behavior, and adherence to safety protocols. This scientific exploration contributes to our understanding of volcanic ecosystems, volcanic risk mitigation, and broader geological research.",
+        "html_file": "volcano-exploration.html",
+        "booked": false
+      },
+      {
+        "name": "Atomic Experience",
+        "image_background": "images/atomic.jpg",
+        "image_details": "images/atom-science-biotechnology.jpeg",
+        "short_description": "The heat. The sound. The power. The most unique experience in the world. Witness unleashed power with the drop of a bomb!",
+        "dangerous_level": 5,
+        "full_description": "The Atomic Experience is a unique and thrilling opportunity to witness the raw power of a nuclear explosion. Participants are taken to a safe and secure location to observe the detonation of a nuclear bomb from a safe distance. This awe-inspiring event provides a rare chance to witness the intense heat, blinding light, and earth-shattering sound of a nuclear explosion. While the Atomic Experience offers a once-in-a-lifetime opportunity to witness the sheer force of a nuclear detonation, it is essential to adhere to strict safety protocols and guidelines. This experience is a testament to the incredible power of nuclear.",
+        "html_file": "unleashed-power.html",
+        "booked": false
+      },
+      {
+        "name": "Thunderstorm Skydiving",
+        "image_background": "images/thunderstorm.png",
+        "image_details": "images/thunder-ax-render-3d-illustration_654080-41.jpg",
+        "short_description": "Experience electrifying skydiving in the midst of a thunderstorm.",
+        "dangerous_level": 4,
+        "full_description": "Daredevil mountain climbing is an adventurous and extreme form of ascent that involves climbers taking on highly challenging routes, often opting for unconventional or unexplored paths. Those engaging in this daring activity possess advanced technical skills and use specialized equipment to navigate perilous terrains. They may seek uncharted territories and attempt first ascents on mountains, adding an exploratory dimension to their pursuits. However, the extreme nature of daredevil climbing comes with significant risks, including unpredictable weather conditions, avalanches, and high-altitude health issues. Climbers must prioritize safety and be well-prepared for emergencies. Famous examples of daredevil climbs include the Eiger's North Face, the Shark's Fin on Meru Peak, and the south face of Annapurna.",
+        "html_file": "thunderstorm-parachuting.html",
+        "booked": false
+      },
+      {
+        "name": "Dinosaur Safari",
+        "image_background": "images/dino.png",
+        "image_details": "images/dinosaur-roars-fiercely-prehistoric-landscape-generative-ai_188544-8721.jpg",
+        "short_description": "Visit our prehistoric acquaintances in the vast jungle of ancient times.",
+        "dangerous_level": 5,
+        "full_description": "Embark on a thrilling adventure to witness the world's most magnificent creatures in their natural habitat. Our dinosaur safaris take you back in time to the Mesozoic era, where you can observe these prehistoric giants in their natural environment. Our experienced guides will lead you through the dense jungles and vast plains, where you can witness the majesty of the T-Rex, the grace of the Brachiosaurus, and the ferocity of the Velociraptor. Our safaris are designed to provide a safe and educational experience, allowing you to learn about the behavior, diet, and habitat of these ancient creatures. You will also have the opportunity to witness the interactions between different species and observe their unique behaviors.",
+        "html_file": "dino.html",
+        "booked": false
+      },
+      {
+        "name": "Space Walk on the Surface of the Sun",
+        "image_background": "images/sun.png",
+        "image_details": "images/one-person-hiking.avif",
+        "short_description": "Take a spacewalk on the scorching surface of the sun.",
+        "dangerous_level": 5,
+        "full_description": "Embark on a thrilling adventure to witness the world's most magnificent creatures in their natural habitat. Our dinosaur safaris take you back in time to the Mesozoic era, where you can observe these prehistoric giants in their natural environment. Our experienced guides will lead you through the dense jungles and vast plains, where you can witness the majesty of the T-Rex, the grace of the Brachiosaurus, and the ferocity of the Velociraptor. Our safaris are designed to provide a safe and educational experience, allowing you to learn about the behavior, diet, and habitat of these ancient creatures. ",
+        "html_file": "sun.html",
+        "booked": false
+      },
+      {
+        "name": "Zombie Apocalypse Survival",
+        "image_background": "images/zombie.jpg",
+        "image_details": "images/zoobies-hands.avif",
+        "short_description": "Survive the zombie apocalypse and escape the undead hordes.",
+        "dangerous_level": 4,
+        "full_description": "Embark on a thrilling adventure to witness the world's most magnificent creatures in their natural habitat. Our dinosaur safaris take you back in time to the Mesozoic era, where you can observe these prehistoric giants in their natural environment. Our experienced guides will lead you through the dense jungles and vast plains, where you can witness the majesty of the T-Rex, the grace of the Brachiosaurus, and the ferocity of the Velociraptor. Our safaris are designed to provide a safe and educational experience, allowing you to learn about the behavior, diet, and habitat of these ancient creatures.",
+        "html_file": "zombie.html",
+        "booked": false
+      },
+      {
+        "name": "Polar Bear Wrestling",
+        "image_background": "images/polar.png",
+        "image_details": "images/polar-bear-wrestling-details.jpg",
+        "short_description": "Engage in hand-to-paw combat with polar bears in their icy habitat.",
+        "dangerous_level": 5,
+        "full_description": "Test your strength and courage against the mighty polar bear, the apex predator of the Arctic. Enter the frozen wilderness and engage in a thrilling showdown with one of nature's most formidable beasts.",
+        "html_file": "polar.html",
+        "booked": false
+      },
+      {
+        "name": "Submarine Battle",
+        "image_background": "images/sub.webp",
+        "image_details": "images/submarine-battle-details.jpg",
+        "short_description": "Engage in underwater combat aboard a high-tech submarine.",
+        "dangerous_level": 3,
+        "full_description": "Dive into the depths of the ocean and commandeer a state-of-the-art submarine. Navigate treacherous underwater terrain, evade enemy vessels, and engage in intense battles beneath the waves.",
+        "html_file": "sub.html",
+        "booked": false
+      }
+    ]
+  }
+  
