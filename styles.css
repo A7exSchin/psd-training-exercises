@@ -59,6 +59,17 @@ section {
     margin-top: 0px; /* Adjusted margin-top */
 }
 
+.dangerousness-label {
+    font-weight: bold;
+    color: darkred;
+    margin-right: 10px; /* Abstand zwischen Text und Totenköpfen */
+}
+
+.skull {
+    cursor: pointer;
+    font-size: 20px; /* Größe der Totenköpfe anpassen */
+}
+
 .gif {
     background-image:url('images/back.gif');
     background-size:100%;
