@@ -66,7 +66,7 @@
         "image_details": "images/one-person-hiking.avif",
         "short_description": "Take a spacewalk on the scorching surface of the sun.",
         "dangerous_level": 5,
-        "full_description": "Embark on a thrilling adventure to witness the world's most magnificent creatures in their natural habitat. Our dinosaur safaris take you back in time to the Mesozoic era, where you can observe these prehistoric giants in their natural environment. Our experienced guides will lead you through the dense jungles and vast plains, where you can witness the majesty of the T-Rex, the grace of the Brachiosaurus, and the ferocity of the Velociraptor. Our safaris are designed to provide a safe and educational experience, allowing you to learn about the behavior, diet, and habitat of these ancient creatures. ",
+        "full_description": "Space walk on the surface of the sun is an extreme and thrilling activity that involves astronauts venturing into the sun's atmosphere to conduct scientific research and gather data. This daring expedition requires advanced space suits and specialized equipment to withstand the sun's intense heat and radiation. Participants must undergo rigorous training and preparation to ensure their safety and the success of the mission. ",
         "html_file": "sun.html",
         "booked": false
       },
@@ -76,7 +76,7 @@
         "image_details": "images/zoobies-hands.avif",
         "short_description": "Survive the zombie apocalypse and escape the undead hordes.",
         "dangerous_level": 4,
-        "full_description": "Embark on a thrilling adventure to witness the world's most magnificent creatures in their natural habitat. Our dinosaur safaris take you back in time to the Mesozoic era, where you can observe these prehistoric giants in their natural environment. Our experienced guides will lead you through the dense jungles and vast plains, where you can witness the majesty of the T-Rex, the grace of the Brachiosaurus, and the ferocity of the Velociraptor. Our safaris are designed to provide a safe and educational experience, allowing you to learn about the behavior, diet, and habitat of these ancient creatures.",
+        "full_description": "Zombie apocalypse survival is an extreme and thrilling activity that involves participants navigating through a post-apocalyptic world overrun by zombies. This daring adventure requires participants to use their survival skills, strategic planning, and resourcefulness to evade and combat the undead. Participants must be prepared to face the challenges of a world where civilization has collapsed, and the undead have taken over.",
         "html_file": "zombie.html",
         "booked": false
       },
@@ -86,7 +86,7 @@
         "image_details": "images/polar-bear-wrestling-details.jpg",
         "short_description": "Engage in hand-to-paw combat with polar bears in their icy habitat.",
         "dangerous_level": 5,
-        "full_description": "Test your strength and courage against the mighty polar bear, the apex predator of the Arctic. Enter the frozen wilderness and engage in a thrilling showdown with one of nature's most formidable beasts.",
+        "full_description": "Polar Bear Wrestling is an extreme sport where participants engage in hand-to-hand combat with polar bears in their natural habitat. This high-risk activity demands advanced wrestling skills, careful planning, and constant monitoring for safety. Participants experience the thrill of wrestling with one of the world's most powerful predators.\n                Polar Bear Wrestling is an adrenaline-pumping niche within the wrestling realm, offering a unique and electrifying challenge against nature's forces.",
         "html_file": "polar.html",
         "booked": false
       },
@@ -96,10 +96,9 @@
         "image_details": "images/submarine-battle-details.jpg",
         "short_description": "Engage in underwater combat aboard a high-tech submarine.",
         "dangerous_level": 3,
-        "full_description": "Dive into the depths of the ocean and commandeer a state-of-the-art submarine. Navigate treacherous underwater terrain, evade enemy vessels, and engage in intense battles beneath the waves.",
+        "full_description": "Submarine Battle is an extreme sport where participants engage in underwater combat with submarines in their natural habitat. This high-risk activity demands advanced combat skills, careful planning, and constant monitoring for safety. Participants experience the thrill of battling with one of the world's most powerful machines.\n                Submarine Battle is an adrenaline-pumping niche within the combat realm, offering a unique and electrifying challenge against nature's forces.",
         "html_file": "sub.html",
         "booked": false
       }
     ]
   }
-  
