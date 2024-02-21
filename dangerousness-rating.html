@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Dangerousness Rating</title>
+    <style>
+        .dangerousness-label {
+            font-weight: bold;
+            color: darkred;
+            margin-right: 10px; /* Abstand zwischen Text und Totenköpfen */
+        }
+
+        .skull {
+            cursor: pointer;
+            font-size: 20px; /* Größe der Totenköpfe anpassen */
+        }
+
+        .skull:hover,
+        .skull:hover ~ .skull,
+        .skull.selected,
+        .skull.selected ~ .skull {
+            color: red; /* Farbe der ausgewählten Totenköpfe */
+        }
+    </style>
+</head>
+<body>
+
+<div class="danger-rating">
+    <span class="dangerousness-label">!DANGEROUSNESS!</span>
+    <span class="skull" data-value="1">💀</span>
+    <span class="skull" data-value="2">💀</span>
+    <span class="skull" data-value="3">💀</span>
+    <span class="skull" data-value="4">💀</span>
+    <span class="skull" data-value="5">💀</span>
+</div>
+
+<script>
+    // Diese Funktion färbt die Totenköpfe entsprechend der übergebenen Nummer rot ein
+    function setDangerLevel(level) {
+        var skulls = document.querySelectorAll('.skull');
+        for (var i = 0; i < skulls.length; i++) {
+            if (i < level) {
+                skulls[i].classList.add('selected');
+            } else {
+                skulls[i].classList.remove('selected');
+            }
+        }
+    }
+
+    // Sobald das Dokument vollständig geladen ist, überprüfen wir, ob ein Gefahrenlevel übergeben wurde und setzen es
+    document.addEventListener('DOMContentLoaded', function() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var dangerLevel = parseInt(urlParams.get('level'));
+        console.log("Gefahrenlevel:", dangerLevel); // Zur Überprüfung des erfassten Gefahrenlevels
+
+        if (dangerLevel && dangerLevel >= 1 && dangerLevel <= 5) {
+            setDangerLevel(dangerLevel);
+        }
+    });
+</script>
+
+</body>
+</html>
