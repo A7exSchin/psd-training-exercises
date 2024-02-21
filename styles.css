@@ -10,10 +10,35 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 40rem;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.image img {
+    max-width: 100rem;
+    height: auto;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
 
 header .container {
     display: flex;
@@ -43,14 +68,14 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 10px 0; /* Adjusted padding */
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     z-index: 1000;
     top: 0; /* Ensure header is at the top */
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,18 +84,27 @@ section {
     margin-top: 0px; /* Adjusted margin-top */
 }
 
+.dangerousness-label {
+    font-weight: bold;
+    color: darkred;
+    margin-right: 10px; /* Abstand zwischen Text und Totenköpfen */
+}
+
+.skull {
+    cursor: pointer;
+    font-size: 20px; /* Größe der Totenköpfe anpassen */
+}
+
 .gif {
-    background-image:url('back.gif');
+    background-image:url('images/back.gif');
     background-size:100%;
     background-repeat: repeat-y;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .details {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
