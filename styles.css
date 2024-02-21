@@ -98,7 +98,7 @@ section {
 .gif {
     background-image:url('images/back.gif');
     background-size:100%;
-    background-repeat: repeat-y;
+    background-span: span-y;
     background-attachment: fixed;
     background-position: center;
 }
@@ -112,7 +112,7 @@ section {
     color: #fff;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-span: no-span;
     background-size: cover;
     margin-top: 0px; /* Adjusted margin-top */
 }
@@ -120,7 +120,7 @@ section {
 .parallax {
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-span: no-span;
     background-size: cover;
 }
 
@@ -240,4 +240,28 @@ footer p {
 
 #contact form button:hover {
     background-color: #0056b3;
+}
+
+span {
+    display:block;
+}
+
+span[n="1"]:before {
+   content: "💀";
+}
+
+span[n="2"]:before {
+   content: "💀💀";
+}
+
+span[n="3"]:before {
+   content: "💀💀💀";
+}
+
+span[n="4"]:before {
+   content: "💀💀💀💀";
+}
+
+span[n="5"]:before {
+   content: "💀💀💀💀💀";
 }
