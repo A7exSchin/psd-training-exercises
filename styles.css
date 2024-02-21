@@ -50,7 +50,7 @@ header {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ section {
 }
 
 .gif {
-    background-image:url('back.gif');
+    background-image:url('images/back.gif');
     background-size:100%;
     background-repeat: repeat-y;
     background-attachment: fixed;
