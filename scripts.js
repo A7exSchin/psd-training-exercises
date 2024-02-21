@@ -44,7 +44,7 @@ async function generateTripSections() {
             <p>${trip.short_description}</p>
             <div class="danger-rating">
                 <span class="dangerousness-label">!DANGEROUSNESS!</span>
-                <span class="skull" n=${trip.dangerous_level}>💀</span>
+                <span class="skull" n=${trip.dangerous_level}></span>
             </div>
         </div>
       </section>
